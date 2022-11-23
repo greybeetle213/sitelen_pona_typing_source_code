@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.greybeetle.sitelen_pona.mixin",
+  "mixins": [],
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "MixinCharTyped",
+    "MixinSignCharTyped"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "mixins.sitelen_pona.refmap.json"
+}
